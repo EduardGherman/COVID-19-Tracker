@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>COVID19</title>
+</head>
+
+<body>
+  <div id="container">
+    <h1 id="title">World Crisis Update</h1>
+    <p id="date&time">Date and Time</p>
+
+    <div id="buttonContainer">
+      <input type="text" id="myInput" onkeyup="filterTable()" placeholder="search for country..."
+        title="Type in a country" />
+    </div>
+
+    <table id="table">
+      <tr>
+        <th>Country</th>
+        <th>TotalConfirmed</th>
+        <th>NewConfirmed</th>
+        <th>NewDeaths</th>
+        <th>TotalDeaths</th>
+        <th>NewRecovered</th>
+        <th>TotalRecovered</th>
+      </tr>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

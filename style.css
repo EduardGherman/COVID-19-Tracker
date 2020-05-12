@@ -1,0 +1,42 @@
+
+body {
+  font-family: 'lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(35deg, #84fab0, #8fd3f4);
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  color: #323232;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  border: 1px solid black;
+}
+
+
+th,
+td {
+  border-bottom: 1px solid #323232;
+  padding: 5px;
+}
+
+p {
+  font-size: large;
+  font-weight: bold;
+}
+
+#myInput {
+  background-color: #e4e4e4;
+  border: 1px solid midnightblue;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  margin: 5px 0px 5px 5px;
+}
